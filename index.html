@@ -1,0 +1,164 @@
+---
+layout: default
+---
+
+<!-- Hero / About -->
+<section id="about" class="mb-20">
+  <div class="space-y-4">
+    <h1 class="text-4xl font-bold tracking-tight">Takashi Shibuya</h1>
+    <p class="text-lg text-slate-600 dark:text-slate-400">
+      Research Scientist ·
+      <a href="https://sony.github.io/creativeai/" class="text-accent underline underline-offset-2 hover:opacity-80 transition" target="_blank" rel="noopener">Creative AI Lab</a>, Sony
+    </p>
+    <div class="leading-relaxed space-y-3">
+      <p>
+        I lead a team focused on
+        <a href="https://sony.github.io/creativeai/#sec_ct" class="text-accent underline underline-offset-2 hover:opacity-80 transition" target="_blank" rel="noopener">Cinematic Technologies</a>
+        .
+      </p>
+      <p>
+        My interests include
+        <span class="font-medium text-accent">Generative AI</span>,
+        <span class="font-medium text-accent">Protective AI</span>, and
+        <span class="font-medium text-accent">Multimodal Learning</span>.
+      </p>
+      <p class="text-sm text-slate-600 dark:text-slate-400">
+        Protective AI focuses on developing techniques to ensure the traceability and integrity of creator- or AI-generated content,
+        including methods such as provenance tracking, training data attribution, and concept erasure.
+        As generative models rapidly improve, safeguarding creators' rights and mitigating broader societal risks
+        are indispensable for the responsible AI deployment.
+      </p>
+    </div>
+    <div class="flex gap-3 pt-2">
+      <a href="mailto:{{ site.author.email }}" class="px-4 py-2 rounded-lg bg-accent text-white hover:bg-sky-600 transition">Email</a>
+      <a href="https://scholar.google.com/citations?user={{ site.author.scholar }}" class="px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-700 hover:border-accent transition" target="_blank" rel="noopener">Scholar</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" class="px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-700 hover:border-accent transition" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<!-- Selected Papers -->
+<section id="selected" class="mb-20">
+  <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+    <span class="w-1 h-6 bg-accent rounded"></span> Selected Papers
+  </h2>
+
+  {% comment %} ===== Selection Rules ===== {% endcomment %}
+  {% assign top_venues = "NeurIPS,ICLR,ICML,CVPR,ICCV,ECCV" | split: "," %}
+  {% assign current_year = 'now' | date: "%Y" | plus: 0 %}
+  {% assign min_year = current_year | minus: 5 %}
+  {% assign target_count = 8 %}
+
+  {% comment %} ===== Filter conference.yml by venue and year (preserve original order) ===== {% endcomment %}
+  {% assign filtered = "" | split: "" %}
+  {% for pub in site.data.publications.conference %}
+    {% if pub.year >= min_year %}
+      {% for v in top_venues %}
+        {% if pub.venue == v %}
+          {% assign filtered = filtered | push: pub %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %} ===== Collect (venue, year) keys from top target_count papers ===== {% endcomment %}
+  {% assign included_keys = "" | split: "" %}
+  {% assign count = 0 %}
+  {% for pub in filtered %}
+    {% if count >= target_count %}{% break %}{% endif %}
+    {% assign key = pub.venue | append: "|" | append: pub.year %}
+    {% unless included_keys contains key %}
+      {% assign included_keys = included_keys | push: key %}
+    {% endunless %}
+    {% assign count = count | plus: 1 %}
+  {% endfor %}
+
+  {% comment %} ===== Final selection: include all papers from those (venue, year) pairs ===== {% endcomment %}
+  {% assign selected = "" | split: "" %}
+  {% for pub in filtered %}
+    {% assign key = pub.venue | append: "|" | append: pub.year %}
+    {% if included_keys contains key %}
+      {% assign selected = selected | push: pub %}
+    {% endif %}
+  {% endfor %}
+
+  <ol class="list-decimal list-outside ml-6 space-y-2 text-sm">
+    {% for pub in selected %}
+      {% include publication-card.html pub=pub %}
+    {% endfor %}
+  </ol>
+</section>
+
+<!-- Publications -->
+<section id="publications" class="mb-20">
+  <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+    <span class="w-1 h-6 bg-accent rounded"></span> Publications
+  </h2>
+
+  <!-- Journal Papers -->
+  <h3 class="text-xl font-semibold mt-8 mb-4">Journal Papers</h3>
+  <ol class="list-decimal list-outside ml-6 space-y-2 text-sm">
+    {% for pub in site.data.publications.journal %}
+      {% include publication-card.html pub=pub %}
+    {% endfor %}
+  </ol>
+
+  <!-- Conference Papers -->
+  <h3 class="text-xl font-semibold mt-10 mb-4">Conference Papers</h3>
+  <ol class="list-decimal list-outside ml-6 space-y-2 text-sm">
+    {% for pub in site.data.publications.conference %}
+      {% include publication-card.html pub=pub %}
+    {% endfor %}
+  </ol>
+
+  <!-- Workshop Papers and Demos -->
+  <h3 class="text-xl font-semibold mt-10 mb-4">Workshop Papers and Demos</h3>
+  <ol class="list-decimal list-outside ml-6 space-y-2 text-sm">
+    {% for pub in site.data.publications.workshop %}
+      {% include publication-card.html pub=pub %}
+    {% endfor %}
+  </ol>
+
+  <!-- Preprints -->
+  <h3 class="text-xl font-semibold mt-10 mb-4">Preprints</h3>
+  <ol class="list-decimal list-outside ml-6 space-y-2 text-sm">
+    {% for pub in site.data.publications.preprint %}
+      {% include publication-card.html pub=pub %}
+    {% endfor %}
+  </ol>
+</section>
+
+<!-- Granted Patents -->
+<section id="patents" class="mb-20">
+  <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+    <span class="w-1 h-6 bg-accent rounded"></span> Granted Patents
+  </h2>
+  <ul class="list-disc list-outside ml-6 space-y-2 text-sm">
+    {% for patent in site.data.patents %}
+    <li class="leading-relaxed">
+      <span class="font-mono">{{ patent.number }}</span>
+      "{{ patent.title }}"
+      [<a href="{{ patent.url }}" class="text-accent hover:underline" target="_blank" rel="noopener">URL</a>]
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- Academic Services and Activities -->
+<section id="services" class="mb-20">
+  <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+    <span class="w-1 h-6 bg-accent rounded"></span> Academic Services and Activities
+  </h2>
+
+  <!-- Workshop Organizer -->
+  <h3 class="text-xl font-semibold mt-6 mb-4">Workshop Organizer</h3>
+  <ol class="list-decimal list-outside ml-6 space-y-2 text-sm">
+    {% for item in site.data.services.organizer %}
+    <li class="leading-relaxed">
+      {{ item.role }} at {{ item.venue }} Workshop on {{ item.title }}{% if item.short %} ({{ item.short }}){% endif %}
+      {% if item.url %} [<a href="{{ item.url }}" class="text-accent hover:underline" target="_blank" rel="noopener">URL</a>]{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
