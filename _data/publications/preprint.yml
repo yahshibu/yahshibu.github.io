@@ -1,0 +1,72 @@
+- title: "Spatio-Temporal Audio Language Modeling for Dynamic Sound Sources"
+  authors: "Oh Hyun-Bin, Kazuki Shimada, Yuhta Takida, Kim Sung-Bin, Toshimitsu Uesaka, <u>Takashi Shibuya</u>, Kyeongyoon Lee, Tae-Hyun Oh, Yuki Mitsufuji"
+  year: 2026
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2606.14141"
+
+- title: "Schrodinger Audio-Visual Editor: Object-Level Audiovisual Removal"
+  authors: "Weihan Xu*, Kan Jen Cheng*, Koichi Saito, Muhammad Jehanzeb Mirza, Tingle Li, Yisi Liu, Alexander H. Liu, Liming Wang, Masato Ishii, <u>Takashi Shibuya</u>, Yuki Mitsufuji, Gopala Anumanchipalli, Paul Pu Liang"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2512.12875"
+
+- title: "AutoRefiner: Improving Autoregressive Video Diffusion Models via Reflective Refinement Over the Stochastic Sampling Path"
+  authors: "Zhengyang Yu, Akio Hayakawa, Masato Ishii, Qingtao Yu, <u>Takashi Shibuya</u>, Jing Zhang, Yuki Mitsufuji"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2512.11203"
+
+- title: "Coherent Audio-Visual Editing via Conditional Audio Generation Following Video Edits"
+  authors: "Masato Ishii, Akio Hayakawa, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2512.07209"
+
+- title: "SoundReactor: Frame-level Online Video-to-Audio Generation"
+  authors: "Koichi Saito, Julian Tanke, Christian Simon, Masato Ishii, Kazuki Shimada, Zachary Novack, Zhi Zhong, Akio Hayakawa, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2510.02110"
+    - label: "demo"
+      url: "https://koichi-saito-sony.github.io/soundreactor/"
+
+- title: "Forging and Removing Latent-Noise Diffusion Watermarks Using a Single Image"
+  authors: "Anubhav Jain, Yuya Kobayashi, Naoki Murata, Yuhta Takida, <u>Takashi Shibuya</u>, Yuki Mitsufuji, Niv Cohen, Nasir Memon, Julian Togelius"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2504.20111"
+    - label: "code"
+      url: "https://github.com/anubhav1997/watermark_forgery_removal"
+
+- title: "HumanGif: Single-View Human Diffusion with Generative Prior"
+  authors: "Shoukang Hu, Takuya Narihira, Kazumi Fukuda, Ryosuke Sawata, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2502.12080"
+    - label: "code"
+      url: "https://github.com/skhu101/HumanGif"
+    - label: "demo"
+      url: "https://skhu101.github.io/HumanGif/"
+
+- title: "TraSCE: Trajectory Steering for Concept Erasure"
+  authors: "Anubhav Jain, Yuya Kobayashi, <u>Takashi Shibuya</u>, Yuhta Takida, Nasir Memon, Julian Togelius, Yuki Mitsufuji"
+  year: 2024
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2412.07658"
+    - label: "code"
+      url: "https://github.com/SonyResearch/TraSCE/"
+
+- title: "Visual Echoes: A Simple Unified Transformer for Audio-Visual Generation"
+  authors: "Shiqi Yang, Zhi Zhong, Mengjie Zhao, Shusuke Takahashi, Masato Ishii, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  year: 2024
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2405.14598"

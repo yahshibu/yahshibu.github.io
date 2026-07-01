@@ -1,0 +1,436 @@
+- title: "Odoriko: A Shape-Aware Multimodal Diffusion Framework for Human Motion"
+  authors: "Dongseok Shim, Julian Tanke, Kengo Uchida, Christian Simon, Koichi Saito, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "ECCV"
+  venue_full: "European Conference on Computer Vision"
+  year: 2026
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2606.21135"
+    - label: "demo"
+      url: "https://dsshim0125.github.io/odoriko.github.io/"
+
+- title: "Spectral Prior for Reducing Exposure Bias in Diffusion Models"
+  authors: "Yuya Kobayashi, Masato Ishii, Yuhta Takida, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "ECCV"
+  venue_full: "European Conference on Computer Vision"
+  year: 2026
+
+- title: "Step-by-Step Video-to-Audio Synthesis via Negative Audio Guidance"
+  authors: "Akio Hayakawa, Masato Ishii, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "ECCV"
+  venue_full: "European Conference on Computer Vision"
+  year: 2026
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2506.20995"
+    - label: "demo"
+      url: "https://ahykw.github.io/sbsv2a/"
+
+- title: "Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models"
+  authors: "Christian Simon, Masato Ishii, Wei-Yao Wang, Koichi Saito, Akio Hayakawa, Dongseok Shim, Zhi Zhong, Shuyang Cui, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "CVPR"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+  pages: "15840–15849"
+  year: 2026
+  links:
+    - label: "CVF"
+      url: "https://openaccess.thecvf.com/content/CVPR2026/html/Simon_Echoes_Over_Time_Unlocking_Length_Generalization_in_Video-to-Audio_Generation_Models_CVPR_2026_paper.html"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2602.20981"
+    - label: "demo"
+      url: "https://echoesovertime.github.io/"
+
+- title: "SONA: Learning Conditional, Unconditional, and Matching-Aware Discriminator"
+  authors: "Yuhta Takida, Satoshi Hayakawa, <u>Takashi Shibuya</u>, Masaaki Imaizumi, Naoki Murata, Bac Nguyen, Toshimitsu Uesaka, Chieh-Hsin Lai, Yuki Mitsufuji"
+  venue: "ICLR"
+  venue_full: "International Conference on Learning Representations"
+  year: 2026
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=lymykMnKBS"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2510.04576"
+
+- title: "FlashFoley: Fast Interactive Sketch2Audio Generation"
+  authors: "Zachary Novack, Koichi Saito, Zhi Zhong, <u>Takashi Shibuya</u>, Shuyang Cui, Julian McAuley, Taylor Berg-Kirkpatrick, Christian Simon, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "ICASSP"
+  venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  pages: "15497–15501"
+  year: 2026
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11465146"
+    - label: "demo"
+      url: "https://anonaudiogen.github.io/web/"
+
+- title: "SAVGBench: Benchmarking Spatially Aligned Audio-Video Generation"
+  authors: "Kazuki Shimada*, Christian Simon*, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "ICASSP"
+  venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  pages: "11977–11981"
+  year: 2026
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11464978"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2412.13462"
+    - label: "code"
+      url: "https://github.com/SonyResearch/SAVGBench"
+    - label: "dataset"
+      url: "https://zenodo.org/records/17139882"
+
+- title: "Towards Blind Data Cleaning: A Case Study in Music Source Separation"
+  authors: "Azalea Gui, Woosung Choi, Junghyun Koo, Kazuki Shimada, <u>Takashi Shibuya</u>, Joan Serrà, Wei-Hsiang Liao, Yuki Mitsufuji"
+  venue: "ICASSP"
+  venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  pages: "14882–14886"
+  year: 2026
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11462165"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2510.15409"
+
+- title: "Video Camera Trajectory Editing with Generative Rendering from Estimated Geometry"
+  authors: "Junyoung Seo*, Jisang Han*, Jaewoo Jung*, Siyoon Jin, Joungbin Lee, Takuya Narihira, Kazumi Fukuda, <u>Takashi Shibuya</u>, Donghoon Ahn, Shoukang Hu, Seungryong Kim, Yuki Mitsufuji"
+  venue: "AAAI"
+  venue_full: "AAAI Conference on Artificial Intelligence"
+  pages: "8787–8795"
+  year: 2026
+  links:
+    - label: "AAAI"
+      url: "https://ojs.aaai.org/index.php/AAAI/article/view/37832"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2506.13697"
+    - label: "code"
+      url: "https://github.com/cvlab-kaist/Vid-CamEdit"
+    - label: "demo"
+      url: "https://cvlab-kaist.github.io/Vid-CamEdit/"
+
+- title: "CCStereo: Audio-Visual Contextual and Contrastive Learning for Binaural Audio Generation"
+  authors: "Yuanhong Chen, Kazuki Shimada, Christian Simon, Yukara Ikemiya, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "ACMMM"
+  venue_full: "ACM International Conference on Multimedia"
+  pages: "7510–7518"
+  year: 2025
+  award: "ACM Showcase"
+  links:
+    - label: "ACM"
+      url: "https://dl.acm.org/doi/10.1145/3746027.3754919"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2501.02786"
+    - label: "code"
+      url: "https://github.com/SonyResearch/CCStereo"
+
+- title: "TITAN-Guide: Taming Inference-Time Alignment for Guided Text-to-Video Diffusion Models"
+  authors: "Christian Simon, Masato Ishii, Akio Hayakawa, Zhi Zhong, Shusuke Takahashi, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "ICCV"
+  venue_full: "International Conference on Computer Vision"
+  pages: "16662–16671"
+  year: 2025
+  links:
+    - label: "CVF"
+      url: "https://openaccess.thecvf.com/content/ICCV2025/html/Simon_TITAN-Guide_Taming_Inference-Time_Alignment_for_Guided_Text-to-Video_Diffusion_Models_ICCV_2025_paper.html"
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11444381"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2508.00289"
+    - label: "demo"
+      url: "https://titanguide.github.io/"
+
+- title: "A Simple but Strong Baseline for Sounding Video Generation: Effective Adaptation of Audio and Video Diffusion Models for Joint Generation"
+  authors: "Masato Ishii, Akio Hayakawa, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "IJCNN"
+  venue_full: "IEEE International Joint Conference on Neural Networks"
+  year: 2025
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11228639"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2409.17550"
+    - label: "code"
+      url: "https://github.com/SonyResearch/SVG_baseline"
+
+- title: "Efficiency without Compromise: CLIP-aided Text-to-Image GANs with Increased Diversity"
+  authors: "Yuya Kobayashi, Yuhta Takida, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "IJCNN"
+  venue_full: "IEEE International Joint Conference on Neural Networks"
+  year: 2025
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11227151"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2506.01493"
+
+- title: "StereoSync: Spatially-Aware Stereo Audio Generation from Video"
+  authors: "Christian Marinoni*, Riccardo Fosco Gramaccioni*, Kazuki Shimada, <u>Takashi Shibuya</u>, Yuki Mitsufuji, Danilo Comminiello"
+  venue: "IJCNN"
+  venue_full: "IEEE International Joint Conference on Neural Networks"
+  year: 2025
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11228529"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2510.05828"
+
+- title: "Classifier-Free Guidance inside the Attraction Basin May Cause Memorization"
+  authors: "Anubhav Jain, Yuya Kobayashi, <u>Takashi Shibuya</u>, Yuhta Takida, Nasir Memon, Julian Togelius, Yuki Mitsufuji"
+  venue: "CVPR"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+  pages: "12871–12879"
+  year: 2025
+  links:
+    - label: "CVF"
+      url: "https://openaccess.thecvf.com/content/CVPR2025/html/Jain_Classifier-Free_Guidance_Inside_the_Attraction_Basin_May_Cause_Memorization_CVPR_2025_paper.html"
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11092395"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2411.16738"
+    - label: "code"
+      url: "https://github.com/SonyResearch/mitigating_memorization"
+
+- title: "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis"
+  authors: "Ho Kei Cheng, Masato Ishii, Akio Hayakawa, <u>Takashi Shibuya</u>, Alexander Schwing, Yuki Mitsufuji"
+  venue: "CVPR"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+  pages: "28901–28911"
+  year: 2025
+  links:
+    - label: "CVF"
+      url: "https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_MMAudio_Taming_Multimodal_Joint_Training_for_High-Quality_Video-to-Audio_Synthesis_CVPR_2025_paper.html"
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11092848"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2412.15322"
+    - label: "code"
+      url: "https://github.com/hkchengrex/MMAudio"
+    - label: "demo"
+      url: "https://huggingface.co/spaces/hkchengrex/MMAudio"
+    - label: "colab"
+      url: "https://colab.research.google.com/drive/1TAaXCY2-kPk4xE4PwKB3EqFbSnkUuzZ8?usp=sharing"
+
+- title: "HERO: Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning"
+  authors: "Ayano Hiranaka*, Shang-Fu Chen*, Chieh-Hsin Lai*, Dongjun Kim, Naoki Murata, <u>Takashi Shibuya</u>, Wei-Hsiang Liao, Shao-Hua Sun, Yuki Mitsufuji"
+  venue: "ICLR"
+  venue_full: "International Conference on Learning Representations"
+  pages: "54942–54971"
+  year: 2025
+  links:
+    - label: "ICLR"
+      url: "https://proceedings.iclr.cc/paper_files/paper/2025/hash/88cc4c853ae933055f980ad9f9c02967-Abstract-Conference.html"
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=yMHe9SRvxk"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2410.05116"
+    - label: "code"
+      url: "https://github.com/sony/hero/"
+    - label: "demo"
+      url: "https://hero-dm.github.io/"
+
+- title: "MMDisCo: Multi-Modal Discriminator-Guided Cooperative Diffusion for Joint Audio and Video Generation"
+  authors: "Akio Hayakawa, Masato Ishii, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "ICLR"
+  venue_full: "International Conference on Learning Representations"
+  pages: "54368–54393"
+  year: 2025
+  links:
+    - label: "ICLR"
+      url: "https://proceedings.iclr.cc/paper_files/paper/2025/hash/86c1fd74fa25bd6be0072937803e0bd1-Abstract-Conference.html"
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=agbiPPuSeQ"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2405.17842"
+    - label: "code"
+      url: "https://github.com/SonyResearch/MMDisCo"
+
+- title: "SoundCTM: Unifying Score-based and Consistency Models for Full-band Text-to-Sound Generation"
+  authors: "Koichi Saito, Dongjun Kim, <u>Takashi Shibuya</u>, Chieh-Hsin Lai, Zhi Zhong, Yuhta Takida, Yuki Mitsufuji"
+  venue: "ICLR"
+  venue_full: "International Conference on Learning Representations"
+  pages: "57803–57832"
+  year: 2025
+  links:
+    - label: "ICLR"
+      url: "https://proceedings.iclr.cc/paper_files/paper/2025/hash/9144aded4e536bc5fb7bfc660a2d7a3d-Abstract-Conference.html"
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=KrK6zXbjfO"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2405.18503"
+    - label: "code"
+      url: "https://github.com/sony/soundctm"
+    - label: "demo"
+      url: "https://koichi-saito-sony.github.io/soundctm/"
+
+- title: "GenWarp: Single Image to Novel Views with Semantic-Preserving Generative Warping"
+  authors: "Junyoung Seo, Kazumi Fukuda, <u>Takashi Shibuya</u>, Takuya Narihira, Naoki Murata, Shoukang Hu, Chieh-Hsin Lai, Seungryong Kim, Yuki Mitsufuji"
+  venue: "NeurIPS"
+  venue_full: "Neural Information Processing Systems"
+  pages: "80220–80243"
+  year: 2024
+  links:
+    - label: "NeurIPS"
+      url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/92e886487a8354b03d8bf4416eae6d7d-Abstract-Conference.html"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2405.17251"
+    - label: "code"
+      url: "https://github.com/sony/genwarp"
+    - label: "demo"
+      url: "https://genwarp-nvs.github.io/"
+
+- title: "SpecMaskGIT: Masked Generative Modeling of Audio Spectrograms for Efficient Audio Synthesis and Beyond"
+  authors: "Marco Comunità*, Zhi Zhong*, Akira Takahashi, Shiqi Yang, Mengjie Zhao, Koichi Saito, Yukara Ikemiya, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "ISMIR"
+  venue_full: "International Society for Music Information Retrieval Conference"
+  pages: "420–428"
+  year: 2024
+  links:
+    - label: "ISMIR"
+      url: "https://zenodo.org/records/14877363"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2406.17672"
+    - label: "demo"
+      url: "https://zzaudio.github.io/SpecMaskGIT/"
+
+- title: "On the Language Encoder of Contrastive Cross-modal Models"
+  authors: "Mengjie Zhao, Junya Ono, Zhi Zhong, Chieh-Hsin Lai, Yuhta Takida, Naoki Murata, Wei-Hsiang Liao, <u>Takashi Shibuya</u>, Hiromi Wakaki, Yuki Mitsufuji"
+  venue: "ACL Findings"
+  venue_full: "Findings of the Annual Meeting of the Association for Computational Linguistics"
+  year: 2024
+  pages: "4923–4940"
+  links:
+    - label: "ACL"
+      url: "https://aclanthology.org/2024.findings-acl.293/"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2310.13267"
+
+- title: "SAN: Inducing Metrizability of GAN with Discriminative Normalized Linear Layer"
+  authors: "Yuhta Takida, Masaaki Imaizumi, <u>Takashi Shibuya</u>, Chieh-Hsin Lai, Toshimitsu Uesaka, Naoki Murata, Yuki Mitsufuji"
+  venue: "ICLR"
+  venue_full: "International Conference on Learning Representations"
+  pages: "9609–9641"
+  year: 2024
+  links:
+    - label: "ICLR"
+      url: "https://proceedings.iclr.cc/paper_files/paper/2024/hash/28ae97a94edbb826ef4a53b5d2df54a3-Abstract-Conference.html"
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=eiF7TU1E8E"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2301.12811"
+    - label: "code"
+      url: "https://github.com/sony/san"
+    - label: "demo"
+      url: "https://ytakida.github.io/san/"
+
+- title: "BigVSAN: Enhancing GAN-based Neural Vocoders with Slicing Adversarial Network"
+  authors: "<u>Takashi Shibuya</u>, Yuhta Takida, Yuki Mitsufuji"
+  venue: "ICASSP"
+  venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  pages: "10121–10125"
+  year: 2024
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/10446121"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2309.02836"
+    - label: "demo"
+      url: "https://takashishibuyasony.github.io/bigvsan/"
+    - label: "code"
+      url: "https://github.com/sony/bigvsan"
+
+- title: "Diffusion-Based Speech Enhancement with Joint Generative and Predictive Decoders"
+  authors: "Hao Shi, Kazuki Shimada, Masato Hirano, <u>Takashi Shibuya</u>, Yuichiro Koyama, Zhi Zhong, Shusuke Takahashi, Tatsuya Kawahara, Yuki Mitsufuji"
+  venue: "ICASSP"
+  venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  pages: "12951–12955"
+  year: 2024
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/10448429"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2305.10734"
+
+- title: "Zero- and Few-shot Sound Event Localization and Detection"
+  authors: "Kazuki Shimada, Kengo Uchida, Yuichiro Koyama, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji, Tatsuya Kawahara"
+  venue: "ICASSP"
+  venue_full: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  pages: "636–640"
+  year: 2024
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/10448497"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2309.09223"
+
+- title: "Extending Audio Masked Autoencoders Toward Audio Restoration"
+  authors: "Zhi Zhong, Hao Shi, Masato Hirano, Kazuki Shimada, Kazuya Tateishi, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "WASPAA"
+  venue_full: "IEEE Workshop on Applications of Signal Processing to Audio and Acoustics"
+  year: 2023
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/10248171"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2305.06701"
+    - label: "demo"
+      url: "https://zzaudio.github.io/Demo_Extend_AudioMAE_toward_Restoration/demo_page.html"
+
+- title: "Diffiner: A Versatile Diffusion-based Generative Refiner for Speech Enhancement"
+  authors: "Ryosuke Sawata, Naoki Murata, Yuhta Takida, Toshimitsu Uesaka, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "INTERSPEECH"
+  venue_full: "Annual Conference of the International Speech Communication Association"
+  pages: "3824–3828"
+  year: 2023
+  links:
+    - label: "ISCA"
+      url: "https://www.isca-archive.org/interspeech_2023/sawata23_interspeech.html"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2210.17287"
+    - label: "code"
+      url: "https://github.com/sony/diffiner"
+
+- title: "SQ-VAE: Variational Bayes on Discrete Representation with Self-annealed Stochastic Quantization"
+  authors: "Yuhta Takida, <u>Takashi Shibuya</u>, Wei-Hsiang Liao, Chieh-Hsin Lai, Junki Ohmura, Toshimitsu Uesaka, Naoki Murata, Shusuke Takahashi, Toshiyuki Kumakura, Yuki Mitsufuji"
+  venue: "ICML"
+  venue_full: "International Conference on Machine Learning"
+  pages: "20987–21012"
+  year: 2022
+  links:
+    - label: "PMLR"
+      url: "https://proceedings.mlr.press/v162/takida22a.html"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2205.07547"
+    - label: "code"
+      url: "https://github.com/sony/sqvae"
+
+- title: "Good Examples Make a Faster Learner: Simple Demonstration-based Learning for Low-resource NER"
+  authors: "Dong-Ho Lee, Akshen Kadakia, Kangmin Tan, Mahak Agarwal, Xinyu Feng, <u>Takashi Shibuya</u>, Ryosuke Mitani, Toshiyuki Sekiya, Jay Pujara, Xiang Ren"
+  venue: "ACL"
+  venue_full: "Annual Meeting of the Association for Computational Linguistics"
+  pages: "2687–2700"
+  year: 2022
+  links:
+    - label: "ACL"
+      url: "https://aclanthology.org/2022.acl-long.192/"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2110.08454"
+    - label: "code"
+      url: "https://github.com/INK-USC/fewNER"
+
+- title: "Audio Fingerprinting Robust against Reverberation and Noise based on Quantification of Sinusoidality"
+  authors: "<u>Takashi Shibuya</u>, Mototsugu Abe, Masayuki Nishiguchi"
+  venue: "ICME"
+  venue_full: "IEEE International Conference on Multimedia and Expo"
+  year: 2013
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/6607520"
+
+- title: "Causality Quantification and Its Applications: Structuring and Modeling of Multivariate Time Series"
+  authors: "<u>Takashi Shibuya</u>, Tatsuya Harada, Yasuo Kuniyoshi"
+  venue: "KDD"
+  venue_full: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+  pages: "787–796"
+  year: 2009
+  links:
+    - label: "ACM"
+      url: "https://dl.acm.org/doi/10.1145/1557019.1557106"

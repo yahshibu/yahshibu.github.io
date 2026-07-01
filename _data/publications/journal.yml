@@ -1,0 +1,50 @@
+- title: "Open-Vocabulary Sound Event Localization and Detection with Joint Learning of CLAP Embedding and Activity-Coupled Cartesian DOA Vector"
+  authors: "Kazuki Shimada, Kengo Uchida, Yuichiro Koyama, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji, Tatsuya Kawahara"
+  venue: "TASLP"
+  venue_full: "IEEE Transactions on Audio, Speech, and Language Processing"
+  volume: "33"
+  pages: "2946–2960"
+  year: 2025
+  links:
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/11074724"
+    - label: "code"
+      url: "https://github.com/SonyResearch/OpenVocabularySELD"
+
+- title: "HQ-VAE: Hierarchical Discrete Representation Learning with Variational Bayes"
+  authors: "Yuhta Takida, Yukara Ikemiya, <u>Takashi Shibuya</u>, Kazuki Shimada, Woosung Choi, Chieh-Hsin Lai, Naoki Murata, Toshimitsu Uesaka, Kengo Uchida, Wei-Hsiang Liao, Yuki Mitsufuji"
+  venue: "TMLR"
+  venue_full: "Transactions on Machine Learning Research"
+  year: 2024
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=xqAVkqrLjx"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2401.00365"
+
+- title: "Nested Named Entity Recognition via Second-best Sequence Learning and Decoding"
+  authors: "<u>Takashi Shibuya</u>, Eduard Hovy"
+  venue: "TACL"
+  venue_full: "Transactions of the Association for Computational Linguistics"
+  volume: "8"
+  pages: "605–620"
+  year: 2020
+  links:
+    - label: "MIT Press"
+      url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00334/96478"
+    - label: "ACL"
+      url: "https://aclanthology.org/2020.tacl-1.39/"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/1909.02250"
+
+- title: "Reliable Index for Measuring Information Flow"
+  authors: "<u>Takashi Shibuya</u>, Tatsuya Harada, Yasuo Kuniyoshi"
+  venue: "Phys. Rev. E"
+  venue_full: "Physical Review E"
+  volume: "84"
+  number: "6"
+  pages: "061109"
+  year: 2011
+  links:
+    - label: "APS"
+      url: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.84.061109"
