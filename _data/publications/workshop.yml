@@ -1,0 +1,127 @@
+- title: "FlashFoley: Fast Interactive Sketch2Audio Generation"
+  authors: "Zachary Novack, Koichi Saito, Zhi Zhong, <u>Takashi Shibuya</u>, Shuyang Cui, Julian McAuley, Taylor Berg-Kirkpatrick, Christian Simon, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "NeurIPS AI4Music"
+  venue_full: "NeurIPS Workshop on AI for Music"
+  year: 2025
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=dxwsVO0W47"
+    - label: "demo"
+      url: "https://anonaudiogen.github.io/web/"
+
+- title: "FlashFoley: Fast Interactive Sketch2Audio Generation"
+  authors: "Zachary Novack, Koichi Saito, Zhi Zhong, <u>Takashi Shibuya</u>, Shuyang Cui, Julian McAuley, Taylor Berg-Kirkpatrick, Christian Simon, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "NeurIPS GenProCC"
+  venue_full: "NeurIPS Workshop on Generative and Protective AI for Content Creation"
+  year: 2025
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=Fsqxyyjysv"
+    - label: "demo"
+      url: "https://anonaudiogen.github.io/web/"
+
+- title: "Stereo Sound Event Localization and Detection with Onscreen/Offscreen Classification"
+  authors: "Kazuki Shimada, Archontis Politis, Iran R. Roman, Parthasaarathy Sudarsanam, David Diaz-Guerra, Ruchi Pandey, Kengo Uchida, Yuichiro Koyama, Naoya Takahashi, <u>Takashi Shibuya</u>, Shusuke Takahashi, Tuomas Virtanen, Yuki Mitsufuji"
+  venue: "DCASE Workshop"
+  venue_full: "Workshop on Detection and Classification of Acoustic Scenes and Events"
+  year: 2025
+  links:
+    - label: "DCASE"
+      url: "https://dcase.community/documents/workshop2025/proceedings/DCASE2025Workshop_Shimada_48.pdf"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2507.12042"
+    - label: "code"
+      url: "https://github.com/partha2409/DCASE2025_seld_baseline"
+    - label: "dataset"
+      url: "https://zenodo.org/records/15559774"
+
+- title: "SAVGBench: Benchmarking Spatially Aligned Audio-Video Generation"
+  authors: "Kazuki Shimada*, Christian Simon*, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "CVPR WSS"
+  venue_full: "CVPR Workshop Sight and Sound"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2412.13462"
+
+- title: "Dyadic Mamba: Long-term Dyadic Human Motion Synthesis"
+  authors: "Julian Tanke, <u>Takashi Shibuya</u>, Kengo Uchida, Koichi Saito, Yuki Mitsufuji"
+  venue: "CVPR HuMoGen"
+  venue_full: "CVPR Workshop on Human Motion Generation"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2505.09827"
+
+- title: "MoLA: Motion Generation and Editing with Latent Diffusion Enhanced by Adversarial Training"
+  authors: "Kengo Uchida, <u>Takashi Shibuya</u>, Yuhta Takida, Naoki Murata, Julian Tanke, Shusuke Takahashi, Yuki Mitsufuji"
+  venue: "CVPR HuMoGen"
+  venue_full: "CVPR Workshop on Human Motion Generation"
+  year: 2025
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2406.01867"
+    - label: "code"
+      url: "https://github.com/sony/MoLA"
+    - label: "demo"
+      url: "https://k5uchida.github.io/MoLA-demo/"
+
+- title: "Embedded Topic Models Enhanced by Wikification"
+  authors: "<u>Takashi Shibuya</u>, Takehito Utsuro"
+  venue: "EMNLP WikiNLP"
+  venue_full: "EMNLP Workshop on Advancing Natural Language Processing for Wikipedia"
+  pages: "80–90"
+  year: 2024
+  links:
+    - label: "ACL"
+      url: "https://aclanthology.org/2024.wikinlp-1.13/"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2410.02441"
+
+- title: "Baseline Models and Evaluation of Sound Event Localization and Detection with Distance Estimation in DCASE2024 Challenge"
+  authors: "David Diaz-Guerra, Archontis Politis, Parthasaarathy Sudarsanam, Kazuki Shimada, Daniel A. Krause, Kengo Uchida, Yuichiro Koyama, Naoya Takahashi, Shusuke Takahashi, <u>Takashi Shibuya</u>, Yuki Mitsufuji, Tuomas Virtanen"
+  venue: "DCASE Workshop"
+  venue_full: "Workshop on Detection and Classification of Acoustic Scenes and Events"
+  pages: "41–45"
+  year: 2024
+  links:
+    - label: "DCASE"
+      url: "https://dcase.community/documents/workshop2024/proceedings/DCASE2024Workshop_Diaz-Guerra_53.pdf"
+
+- title: "SoundCTM: Uniting Score-based and Consistency Models for Text-to-Sound Generation"
+  authors: "Koichi Saito, Dongjun Kim, <u>Takashi Shibuya</u>, Chieh-Hsin Lai, Zhi Zhong, Yuhta Takida, Yuki Mitsufuji"
+  venue: "NeurIPS Audio Imagination"
+  venue_full: "NeurIPS Workshop on AI-Driven Speech, Music, and Sound Generation"
+  year: 2024
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2405.18503"
+    - label: "code"
+      url: "https://github.com/sony/soundctm"
+    - label: "demo"
+      url: "https://koichi-saito-sony.github.io/soundctm/"
+
+- title: "A Simple but Strong Baseline for Sounding Video Generation: Effective Adaptation of Audio and Video Diffusion Models for Joint Generation"
+  authors: "Masato Ishii, Akio Hayakawa, <u>Takashi Shibuya</u>, Yuki Mitsufuji"
+  venue: "ECCV AVGenL"
+  venue_full: "ECCV Workshop Audio-Visual Generation and Learning"
+  year: 2024
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2409.17550"
+
+- title: "XMD: An End-to-End Framework for Interactive Explanation-Based Debugging of NLP Models"
+  authors: "Dong-Ho Lee, Akshen Kadakia, Brihi Joshi, Aaron Chan, Ziyi Liu, Kiran Narahari, <u>Takashi Shibuya</u>, Ryosuke Mitani, Toshiyuki Sekiya, Jay Pujara, Xiang Ren"
+  venue: "ACL Demo"
+  venue_full: "Annual Meeting of the Association for Computational Linguistics, System Demonstrations"
+  pages: "264–273"
+  year: 2023
+  links:
+    - label: "ACL"
+      url: "https://aclanthology.org/2023.acl-demo.25/"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2210.16978"
+    - label: "code"
+      url: "https://github.com/INK-USC/XMD"
+    - label: "demo"
+      url: "https://inklab.usc.edu/xmd/"
