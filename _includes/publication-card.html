@@ -1,0 +1,16 @@
+<li class="leading-relaxed">
+  {{ include.pub.authors }},
+  "<span class="font-medium">{{ include.pub.title }}</span>,"
+  {% if include.pub.venue %}
+    {% if include.pub.venue_full %}{{ include.pub.venue_full }} ({% endif %}<span class="font-semibold text-accent">{{ include.pub.venue }}</span>{% if include.pub.venue_full %}){% endif %}{% if include.pub.pages %}, pp. {{ include.pub.pages }}{% endif %},
+  {% endif %}
+  {{ include.pub.year }}.
+  {% if include.pub.links and include.pub.links.size > 0 %}
+    {% for link in include.pub.links %}
+      {% if link.url and link.label %}
+        [<a href="{{ link.url }}" class="text-accent hover:underline" target="_blank" rel="noopener">{{ link.label }}</a>]
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% if include.pub.award %} – <span class="font-medium text-accent">{{ include.pub.award }}</span>{% endif %}
+</li>
