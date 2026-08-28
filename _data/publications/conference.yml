@@ -6,6 +6,8 @@
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2606.14141"
+    - label: "demo"
+      url: "https://st-audiolm.github.io/"
 
 - title: "Odoriko: A Shape-Aware Multimodal Diffusion Framework for Human Motion"
   authors: "Dongseok Shim, Julian Tanke, Kengo Uchida, Christian Simon, Koichi Saito, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
