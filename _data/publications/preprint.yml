@@ -1,3 +1,10 @@
+- title: "LYRIC: Language-Driven Physics-Based Character Control for Contact-Rich Whole-Body Object Interaction"
+  authors: "Zeyu Han, Zichong Meng, Julian Tanke, Minami Matsumoto, Sergey Bashkirov, Yingruo Fan, Selim Engin, Dongseok Shim, Takashi Shibuya, Yuki Mitsufuji, Huaizu Jiang"
+  year: 2026
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2609.19688"
+
 - title: "Omni-Interactive Universal Embedder"
   authors: "Wei-Yao Wang, Kazuya Tateishi, Shuyang Cui, Christian Simon, Takashi Shibuya, Shusuke Takahashi, Yuki Mitsufuji"
   year: 2026
