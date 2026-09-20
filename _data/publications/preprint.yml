@@ -1,12 +1,14 @@
 - title: "LYRIC: Language-Driven Physics-Based Character Control for Contact-Rich Whole-Body Object Interaction"
-  authors: "Zeyu Han, Zichong Meng, Julian Tanke, Minami Matsumoto, Sergey Bashkirov, Yingruo Fan, Selim Engin, Dongseok Shim, Takashi Shibuya, Yuki Mitsufuji, Huaizu Jiang"
+  authors: "Zeyu Han, Zichong Meng, Julian Tanke, Minami Matsumoto, Sergey Bashkirov, Yingruo Fan, Selim Engin, Dongseok Shim, <u>Takashi Shibuya</u>, Yuki Mitsufuji, Huaizu Jiang"
   year: 2026
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2609.19688"
+    - label: "demo"
+      url: "https://neu-vi.github.io/LYRIC/"
 
 - title: "Omni-Interactive Universal Embedder"
-  authors: "Wei-Yao Wang, Kazuya Tateishi, Shuyang Cui, Christian Simon, Takashi Shibuya, Shusuke Takahashi, Yuki Mitsufuji"
+  authors: "Wei-Yao Wang, Kazuya Tateishi, Shuyang Cui, Christian Simon, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
   year: 2026
   links:
     - label: "arXiv"
@@ -61,15 +63,6 @@
       url: "https://github.com/skhu101/HumanGif"
     - label: "demo"
       url: "https://skhu101.github.io/HumanGif/"
-
-- title: "TraSCE: Trajectory Steering for Concept Erasure"
-  authors: "Anubhav Jain, Yuya Kobayashi, <u>Takashi Shibuya</u>, Yuhta Takida, Nasir Memon, Julian Togelius, Yuki Mitsufuji"
-  year: 2024
-  links:
-    - label: "arXiv"
-      url: "https://arxiv.org/abs/2412.07658"
-    - label: "code"
-      url: "https://github.com/SonyResearch/TraSCE/"
 
 - title: "Visual Echoes: A Simple Unified Transformer for Audio-Visual Generation"
   authors: "Shiqi Yang, Zhi Zhong, Mengjie Zhao, Shusuke Takahashi, Masato Ishii, <u>Takashi Shibuya</u>, Yuki Mitsufuji"

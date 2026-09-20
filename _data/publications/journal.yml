@@ -1,3 +1,16 @@
+- title: "Rethinking Negative Prompting for Concept Suppression: Unconditional Anchoring and Localized Guidance"
+  authors: "Anubhav Jain*, <u>Takashi Shibuya</u>*, Yuya Kobayashi, Yuhta Takida, Nasir Memon, Julian Togelius, Yuki Mitsufuji"
+  venue: "TMLR"
+  venue_full: "Transactions on Machine Learning Research"
+  year: 2026
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=RgdWbRqviu"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2412.07658"
+    - label: "code"
+      url: "https://github.com/SonyResearch/TraSCE"
+
 - title: "Open-Vocabulary Sound Event Localization and Detection with Joint Learning of CLAP Embedding and Activity-Coupled Cartesian DOA Vector"
   authors: "Kazuki Shimada, Kengo Uchida, Yuichiro Koyama, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji, Tatsuya Kawahara"
   venue: "TASLP"
