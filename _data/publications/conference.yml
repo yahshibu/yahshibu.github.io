@@ -1,3 +1,9 @@
+- title: "Pose Mutation: Target-Pose-Free Consistent Pose Exploration for Portrait Generation"
+  authors: "Masaru Mizuochi, <u>Takashi Shibuya</u>, Masato Ishii, Vali Lalioti"
+  venue: "ACCV"
+  venue_full: "Asian Conference on Computer Vision"
+  year: 2026
+  
 - title: "Spatio-Temporal Audio Language Modeling for Dynamic Sound Sources"
   authors: "Oh Hyun-Bin, Kazuki Shimada, Yuhta Takida, Kim Sung-Bin, Toshimitsu Uesaka, <u>Takashi Shibuya</u>, Kyeongyoon Lee, Tae-Hyun Oh, Yuki Mitsufuji"
   venue: "EMNLP"
