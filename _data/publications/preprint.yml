@@ -7,13 +7,6 @@
     - label: "demo"
       url: "https://neu-vi.github.io/LYRIC/"
 
-- title: "Omni-Interactive Universal Embedder"
-  authors: "Wei-Yao Wang, Kazuya Tateishi, Shuyang Cui, Christian Simon, <u>Takashi Shibuya</u>, Shusuke Takahashi, Yuki Mitsufuji"
-  year: 2026
-  links:
-    - label: "arXiv"
-      url: "https://arxiv.org/abs/2608.27044"
-
 - title: "Schrodinger Audio-Visual Editor: Object-Level Audiovisual Removal"
   authors: "Weihan Xu*, Kan Jen Cheng*, Koichi Saito, Muhammad Jehanzeb Mirza, Tingle Li, Yisi Liu, Alexander H. Liu, Liming Wang, Masato Ishii, <u>Takashi Shibuya</u>, Yuki Mitsufuji, Gopala Anumanchipalli, Paul Pu Liang"
   year: 2025
