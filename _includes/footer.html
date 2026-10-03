@@ -1,0 +1,10 @@
+<footer class="border-t border-slate-200 dark:border-slate-800 mt-8">
+  <div class="max-w-5xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400">
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
+    <div class="flex items-center gap-5 text-lg">
+      <a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email" class="hover:text-accent transition"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user={{ site.author.scholar }}" aria-label="Google Scholar" title="Google Scholar" class="hover:text-accent transition" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn" class="hover:text-accent transition" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
