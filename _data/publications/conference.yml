@@ -46,6 +46,8 @@
   venue_full: "European Conference on Computer Vision"
   year: 2026
   links:
+    - label: "Springer"
+      url: "https://link.springer.com/chapter/10.1007/978-3-032-37435-6_26"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2606.21135"
     - label: "demo"
@@ -57,6 +59,8 @@
   venue_full: "European Conference on Computer Vision"
   year: 2026
   links:
+    - label: "Springer"
+      url: "https://link.springer.com/chapter/10.1007/978-3-032-37450-9_1"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2607.22091"
     - label: "code"
@@ -68,6 +72,8 @@
   venue_full: "European Conference on Computer Vision"
   year: 2026
   links:
+    - label: "Springer"
+      url: "https://link.springer.com/chapter/10.1007/978-3-032-37020-4_37"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2506.20995"
     - label: "demo"
